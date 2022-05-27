@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 27 12:44:40 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>107 seconds (107123 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.tests.Test_Loan2.Test_EducationLoanCalculation_3()'><b>Test_EducationLoanCalculation_3</b><br>Test class: com.automation.tests.Test_Loan2<br/>
+<a href="#Output-1590481849" onClick='toggleBox("Output-1590481849", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1590481849" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1590481849">
+im in first test<br/>
+{emi=28,312.84, InterestChargesPayment=23,97,540.75, TotalPayment=33,97,540.75}<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.automation.tests.Test_Loan2@6aeb35e6</td></tr>
+<tr>
+<td title='com.automation.tests.Test_Loan.Test_EducationLoanCalculation_1()'><b>Test_EducationLoanCalculation_1</b><br>Test class: com.automation.tests.Test_Loan<br/>
+<a href="#Output-24097622" onClick='toggleBox("Output-24097622", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24097622" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24097622">
+im in first test<br/>
+{emi=0, InterestChargesPayment=0, TotalPayment=39,79,656.52}<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.automation.tests.Test_Loan@79e2c065</td></tr>
+<tr>
+<td title='com.automation.tests.Test_Loan2.Test_EducationLoanCalculation_4()'><b>Test_EducationLoanCalculation_4</b><br>Test class: com.automation.tests.Test_Loan2<br/>
+<a href="#Output-685219002" onClick='toggleBox("Output-685219002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-685219002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-685219002">
+im in second<br/>
+{emi=28,312.84, InterestChargesPayment=23,97,540.75, TotalPayment=33,97,540.75}<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.automation.tests.Test_Loan2@6aeb35e6</td></tr>
+<tr>
+<td title='com.automation.tests.Test_Loan.Test_EducationLoanCalculation_2()'><b>Test_EducationLoanCalculation_2</b><br>Test class: com.automation.tests.Test_Loan<br/>
+<a href="#Output-460333119" onClick='toggleBox("Output-460333119", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-460333119" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-460333119">
+im in second<br/>
+{emi=33,163.8, InterestChargesPayment=29,79,656.52, TotalPayment=39,79,656.52}<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.automation.tests.Test_Loan@79e2c065</td></tr>
+</table><p>
+</body>
+</html>

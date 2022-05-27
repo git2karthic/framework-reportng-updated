@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[im in first test]]>
+    </line>
+    <line>
+      <![CDATA[{emi=0, InterestChargesPayment=0, TotalPayment=39,79,656.52}]]>
+    </line>
+    <line>
+      <![CDATA[im in second]]>
+    </line>
+    <line>
+      <![CDATA[{emi=33,163.8, InterestChargesPayment=29,79,656.52, TotalPayment=39,79,656.52}]]>
+    </line>
+    <line>
+      <![CDATA[im in first test]]>
+    </line>
+    <line>
+      <![CDATA[{emi=28,312.84, InterestChargesPayment=23,97,540.75, TotalPayment=33,97,540.75}]]>
+    </line>
+    <line>
+      <![CDATA[im in second]]>
+    </line>
+    <line>
+      <![CDATA[{emi=28,312.84, InterestChargesPayment=23,97,540.75, TotalPayment=33,97,540.75}]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-27T12:44:40 IST" name="Suite" finished-at="2022-05-27T12:46:27 IST" duration-ms="107123">
+    <groups>
+    </groups>
+    <test started-at="2022-05-27T12:44:40 IST" name="Test" finished-at="2022-05-27T12:46:27 IST" duration-ms="107123">
+      <class name="com.automation.tests.Test_Loan">
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:com.automation.tests.Test_Loan@79e2c065]" started-at="2022-05-27T12:44:40 IST" name="Initialize" finished-at="2022-05-27T12:44:49 IST" duration-ms="8828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="Test_EducationLoanCalculation_1()[pri:0, instance:com.automation.tests.Test_Loan@79e2c065]" started-at="2022-05-27T12:44:49 IST" name="Test_EducationLoanCalculation_1" finished-at="2022-05-27T12:45:01 IST" duration-ms="12069" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[im in first test]]>
+            </line>
+            <line>
+              <![CDATA[{emi=0, InterestChargesPayment=0, TotalPayment=39,79,656.52}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_EducationLoanCalculation_1 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.automation.tests.Test_Loan@79e2c065]" started-at="2022-05-27T12:45:01 IST" name="CloseBrowser" finished-at="2022-05-27T12:45:01 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:com.automation.tests.Test_Loan@79e2c065]" started-at="2022-05-27T12:45:01 IST" name="Initialize" finished-at="2022-05-27T12:45:10 IST" duration-ms="8221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="Test_EducationLoanCalculation_2()[pri:0, instance:com.automation.tests.Test_Loan@79e2c065]" started-at="2022-05-27T12:45:10 IST" name="Test_EducationLoanCalculation_2" finished-at="2022-05-27T12:45:22 IST" duration-ms="12203" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[im in second]]>
+            </line>
+            <line>
+              <![CDATA[{emi=33,163.8, InterestChargesPayment=29,79,656.52, TotalPayment=39,79,656.52}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_EducationLoanCalculation_2 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.automation.tests.Test_Loan@79e2c065]" started-at="2022-05-27T12:45:22 IST" name="CloseBrowser" finished-at="2022-05-27T12:45:22 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.automation.tests.Test_Loan -->
+      <class name="com.automation.tests.Test_Loan2">
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:com.automation.tests.Test_Loan2@6aeb35e6]" started-at="2022-05-27T12:45:22 IST" name="Initialize" finished-at="2022-05-27T12:45:31 IST" duration-ms="8485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="Test_EducationLoanCalculation_3()[pri:0, instance:com.automation.tests.Test_Loan2@6aeb35e6]" started-at="2022-05-27T12:45:31 IST" name="Test_EducationLoanCalculation_3" finished-at="2022-05-27T12:45:47 IST" duration-ms="16120" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[im in first test]]>
+            </line>
+            <line>
+              <![CDATA[{emi=28,312.84, InterestChargesPayment=23,97,540.75, TotalPayment=33,97,540.75}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_EducationLoanCalculation_3 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.automation.tests.Test_Loan2@6aeb35e6]" started-at="2022-05-27T12:45:47 IST" name="CloseBrowser" finished-at="2022-05-27T12:45:47 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:com.automation.tests.Test_Loan2@6aeb35e6]" started-at="2022-05-27T12:45:47 IST" name="Initialize" finished-at="2022-05-27T12:46:15 IST" duration-ms="28347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="Test_EducationLoanCalculation_4()[pri:0, instance:com.automation.tests.Test_Loan2@6aeb35e6]" started-at="2022-05-27T12:46:15 IST" name="Test_EducationLoanCalculation_4" finished-at="2022-05-27T12:46:27 IST" duration-ms="11929" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[im in second]]>
+            </line>
+            <line>
+              <![CDATA[{emi=28,312.84, InterestChargesPayment=23,97,540.75, TotalPayment=33,97,540.75}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_EducationLoanCalculation_4 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.automation.tests.Test_Loan2@6aeb35e6]" started-at="2022-05-27T12:46:27 IST" name="CloseBrowser" finished-at="2022-05-27T12:46:27 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.automation.tests.Test_Loan2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

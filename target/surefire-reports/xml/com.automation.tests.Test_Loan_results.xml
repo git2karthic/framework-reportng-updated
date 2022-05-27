@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="24.272">
+  <properties />
+  
+  
+            <testcase name="Test_EducationLoanCalculation_1" time="12.069" classname="com.automation.tests.Test_Loan" />
+                <testcase name="Test_EducationLoanCalculation_2" time="12.203" classname="com.automation.tests.Test_Loan" />
+      
+</testsuite>
